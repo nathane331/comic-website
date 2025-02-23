@@ -1,0 +1,107 @@
+
+body{
+    color: #e4c59e;
+    background-color: #23201f;
+    margin: 0;
+    padding: 0;
+    font-family: "Bellefair";
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+
+.center-content{
+    display: flex;
+    flex: 1;
+    
+}
+
+.header{
+    background-color: #171514;
+    padding: 36px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+    
+}
+
+.title{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.button-container{
+    display:flex;
+    gap: 36px;
+}
+
+button{
+    font-family: "Cormorant Infant";
+font-size: 16px;
+    color:#e4c59e;
+    background-color: transparent;
+    border: 1px solid #e4c59e;
+    border-radius: 10px;
+    padding: 12px;
+    text-align: center;
+
+}
+
+
+.side-menu{
+    background-color: #602e2c;
+    padding: 24px;
+    width: 120px;
+    flex-shrink: 0;
+    
+}
+
+.body{
+    padding: 48px;
+}
+
+.footer{
+
+    height: 18px;
+    background-color: #171514;
+    padding: 18px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-weight: light;
+
+}
+
+.side-menu{
+    display:flex;
+    flex-direction: column;
+    font-size: 24px;
+    
+}
+
+ul{
+    list-style-type:none;
+    
+}
+
+.menu-items{
+    padding:0;
+}
+
+li{
+    font-size: 20px;
+    padding-top: 10px;
+    font-style: italic;
+}
+
